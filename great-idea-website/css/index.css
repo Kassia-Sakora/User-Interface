@@ -65,6 +65,12 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
+.bigbox {
+	border:1px solid red;
+  	width:90%;
+  	margin:0 auto;
+}
+
 nav {
 	display:block;
 	border: 1px solid gray;
@@ -84,22 +90,19 @@ nav div {
 }
 
 .catchphrase {
-	display: inline-block;
 	text-align: center;
 	font-size: 90px;
 	width: 30%
 }
 
 #startbutton {
-	display: inline-block;
 	border:1px solid black;
 	width: 150px;
 	font-size: 30px;
 }
 
 .code {
-	display: inline-block;
 	margin:20px 800px;
-	margin-bottom: 400px;
 	width: 30%;
+	align: right;
 }
