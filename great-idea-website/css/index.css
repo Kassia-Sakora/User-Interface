@@ -66,9 +66,9 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 
 .bigbox {
-	border:1px solid red;
-  	width:90%;
-  	margin:0 auto;
+  	width:80%;
+	margin:0 auto;
+	text-align: center;
 }
 
 nav {
@@ -89,29 +89,49 @@ nav div {
 	width: 100%;
 }
 
-.catchphrase {
-	display: inline-block;
-	text-align: center;
-	font-size: 90px;
-	width: 30%;
-	background-color: red;
+.top-container {
+	margin: 1.5%;
+	padding: 1.5%;
+	background-color: green;
 }
 
-#startbutton {
-	border:1px solid black;
-	width: 150px;
-	font-size: 30px;
-	text-decoration: none;
-	color: gray;
+.catchphrase {
+	display: inline-block;
+	margin: 20px;
+	padding: 20px;
+	width: 40%;
+	font-size: 90px;
+	background-color: purple;
 }
 
 .codeimg {
 	display: inline-block;
-	margin:20px 800px;
-	width: 30%;
+	margin: 0px 800px;
+	padding: 20px;
 	background-color: blue;
 }
 
 p {
+	font-size: 23px;
+}
+
+.bigbox .content {
+	display: inline-block;
+	margin:0 auto;
+	padding: 20px;
+	width: 20%;
+}
+
+.middle-img {
+	align-content: center;
+}
+
+.contact {
+	text-align: left;
+	font-style: italic;
 	font-size: 20px;
+}
+
+.copyright {
+	text-align: center;
 }
