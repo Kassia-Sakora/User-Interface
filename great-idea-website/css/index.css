@@ -72,10 +72,10 @@ h1, h2, h3, h4, h5 {
 }
 
 nav {
-	display:block;
+	display: block;
 	border: 1px solid gray;
-	padding: 50px;
-	width:100%;
+	padding: 25px;
+	width: 100%;
 }
 
 nav a {
@@ -90,19 +90,28 @@ nav div {
 }
 
 .catchphrase {
+	display: inline-block;
 	text-align: center;
 	font-size: 90px;
-	width: 30%
+	width: 30%;
+	background-color: red;
 }
 
 #startbutton {
 	border:1px solid black;
 	width: 150px;
 	font-size: 30px;
+	text-decoration: none;
+	color: gray;
 }
 
-.code {
+.codeimg {
+	display: inline-block;
 	margin:20px 800px;
 	width: 30%;
-	align: right;
+	background-color: blue;
+}
+
+p {
+	font-size: 20px;
 }
